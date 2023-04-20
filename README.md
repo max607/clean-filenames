@@ -4,13 +4,12 @@
 
 ## Table of Contents
 
-    Introduction
-    Installation
-    Usage
-    Documentation
-    Contributing
-    License
-    About ChatGPT
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Documentation](#documentation)
+* [Contributing](#contributing)
+* [About ChatGPT](#about-chatgpt)
 
 ## Introduction
 
