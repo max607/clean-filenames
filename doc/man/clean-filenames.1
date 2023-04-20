@@ -1,0 +1,37 @@
+.\" generated with Ronn-NG/v0.9.1
+.\" http://github.com/apjanke/ronn-ng/tree/0.9.1
+.TH "CLEAN\-FILENAMES" "1" "April 2023" ""
+clean\-filenames(1) \- Rename files with lowercase names and replace spaces with hyphens
+.SH "SYNOPSIS"
+clean\-filenames [OPTIONS] [PATH]
+.SH "DESCRIPTION"
+\fBclean\-filenames\fR is a tool for renaming files with lowercase names and replacing spaces with hyphens\. By default, it operates on all files in the specified PATH recursively\. It can also be used to print the new names without actually renaming the files (\fB\-p\fR option), or to prompt the user for confirmation before renaming each file (\fB\-s\fR option)\.
+.SH "OPTIONS"
+\-p, Print the new file names without actually renaming the files\.
+.P
+\-s, Prompt the user for confirmation before renaming each file\.
+.SH "EXAMPLES"
+Rename all files in the current directory and its subdirectories:
+.IP "" 4
+.nf
+clean\-filenames \.
+.fi
+.IP "" 0
+.P
+Print the new names of all files in the current directory and its subdirectories:
+.IP "" 4
+.nf
+clean\-filenames \-p \.
+.fi
+.IP "" 0
+.P
+Prompt the user for confirmation before renaming each file:
+.IP "" 4
+.nf
+clean\-filenames \-s \.
+.fi
+.IP "" 0
+.SH "AUTHOR"
+Written by Max Schneider and ChatGPT\.
+.SH "SEE ALSO"
+\fBmv\fR(1), \fBsed\fR(1)
